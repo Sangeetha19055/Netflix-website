@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #000;
+}
+section {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/68b7a1a2-664c-4dad-a797-548f157cca5e/KW-en-20210823-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: difference;
+  height: 100vh;
+  z-index: 10000;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(17, 17, 17, 0.671);
+  box-shadow: 20px 0px 20px 0px #000;
+  z-index: 10000;
+}
+.logo-image {
+  width: 150px;
+  fill: #e50914;
+  line-height: normal;
+  background-blend-mode: color-burn;
+}
+/* .header-right {
+      } */
+.header-right button {
+  margin: 0px 20px;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header-right button:nth-child(1) {
+  position: relative;
+  border: 1px solid #fff;
+}
+.fa-sort-down {
+  position: relative;
+  top: -2px;
+}
+.header-right button:nth-child(2) {
+  background-color: red;
+}
+/* main style starts here */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 160px;
+  padding: 20px;
+}
+main .section-content {
+  color: #fff;
+  text-align: center;
+}
+main .section-content h1 {
+  font-size: 50px;
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+main .section-content h3 {
+  margin-bottom: 20px;
+}
+main .section-content p {
+  margin-bottom: 20px;
+}
+.section-btn_start input {
+  padding: 0px 10px 0px 20px;
+  min-width: 450px;
+  height: 50px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: rgb(104, 102, 102);
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+.section-btn_start button {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  font-size: 18px;
+  position: relative;
+  left: -6px;
+  height: 52px;
+  padding: 0px 40px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.section-btn_start button:hover {
+  background-color: rgb(168, 32, 8);
+  /* border: 1px solid white; */
+}
+/* body:before{
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 400px;
+          z-index: 1;
+          background: linear-gradient(to bottom ,rgba(20, 20, 20, 0.137),transparent); 
+      }
+      body:after{
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 400px;
+          z-index: 1;
+          background: linear-gradient(to top ,rgb(0, 0, 0),transparent);
+          
+      } */
+/* cards */
+.card-box {
+  color: #fff;
+}
+.card-0,
+.card-1,
+.card-2,
+.card-3 {
+  border-top: 8px rgb(69, 69, 69) solid;
+  padding: 50px;
+}
+
+.card-0 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.desc-0 {
+  padding-left: 100px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.card-1 {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-1 {
+  padding-left: 80px;
+}
+
+.style-cards h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+.style-cards h3 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.card-1 video {
+  position: relative;
+  width: 100%;
+  height: 54%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+
+.card-1 img {
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.card-2 {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 40% 50%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-2 {
+  padding-left: 100px;
+}
+
+.card-3 {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-3 {
+  padding-left: 80px;
+  padding-right: 20px;
+}
+
+.card-3 img {
+  width: 110%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.card-3 video {
+  position: relative;
+  top: -87px;
+  left: 125px;
+  width: 65%;
+  height: 78%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+
+.faq {
+  text-align: center;
+}
+
+.faq h1 {
+  padding-bottom: 40px;
+  font-size: 3rem;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  align-items: center;
+}
+
+.questions li {
+  padding: 20px 30px;
+  margin: 5px;
+  font-size: 1.6rem;
+  background-color: #303030;
+  color: white;
+  text-align: left;
+  width: 50%;
+  text-decoration: none;
+  list-style: none;
+}
+
+.faq p {
+  padding-top: 60px;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.input {
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: 50% 40%;
+}
+
+.input input {
+  width: 600px;
+  height: 3rem;
+}
+
+.input button {
+  height: 3.25rem;
+  width: 320px;
+  left: 20px;
+  text-align: center;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+.card-3 {
+  border-bottom: 8px rgb(69, 69, 69) solid;
+}
+/* cards ends */
+.center-btn {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.center-btn p {
+  color: #fff;
+}
+/* Footer styles */
+footer {
+  background-color: #212121;
+  padding: 50px 20px;
+}
+
+footer .container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .container h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "RocknRoll One", sans-serif;
+}
+footer .container h3:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: blueviolet;
+}
+footer .content {
+  list-style-type: none;
+}
+
+footer .content a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.6;
+  line-height: 30px;
+  transition: 0.3s ease opacity;
+}
+
+footer .content a:hover {
+  opacity: 1;
+}
+
+footer .first {
+  flex-basis: 18%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f5f5f5;
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+.btn input {
+  background-color: blueviolet;
+  color: #fff;
+  transition: 0.3s ease background-color;
+  padding: 10px 30px 10px 20px;
+  font-size: 17px;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.btn input:hover {
+  background-color: #000;
+}
+.copyrightText {
+  background-color: #353535;
+  width: 100%;
+  padding: 15px 100px;
+  text-align: center;
+}
+.copyrightText p {
+  color: #999;
+}
+@media only screen and (max-width: 888px) {
+  footer {
+    padding: 20px 20px 30px 0px;
+  }
+  footer .first {
+    flex-basis: 80%;
+    margin: 0 auto;
+  }
+  form {
+    flex-direction: column;
+  }
+  form input {
+    width: 90%;
+    margin: 5px auto;
+  }
+  footer .first h3 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+}
+/* Footer styles ends */
+/* main style ENDS here */
+@media (max-width: 992px) {
+  .section-btn_start {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/68b7a1a2-664c-4dad-a797-548f157cca5e/KW-en-20210823-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  }
+
+  .logo-image {
+    width: 130px;
+  }
+  .header-right button {
+    margin: 0px 5px;
+  }
+  main .section-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .section-btn_start input {
+    min-width: 417px;
+  }
+}
+@media (max-width: 576px) {
+  .logo-image {
+    width: 100px;
+  }
+  .header-right button {
+    padding: 6px 15px;
+    font-size: 14px;
+  }
+  main .section-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .section-btn_start input {
+    min-width: 360px;
+  }
+}
