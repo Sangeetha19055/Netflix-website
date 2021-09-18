@@ -235,11 +235,14 @@ main .section-content p {
 
 .faq {
   text-align: center;
+  border-top: 8px rgb(69, 69, 69) solid;
 }
 
 .faq h1 {
   padding-bottom: 40px;
   font-size: 3rem;
+  color:#fff;
+  margin-top:30px
 }
 
 .questions {
