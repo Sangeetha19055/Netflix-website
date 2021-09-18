@@ -475,4 +475,9 @@ input {
     font-size: 1rem;
     font-weight: normal;
 }
+  .style-cards h1 {
+    font-size: 2rem;
+    padding: 1rem;
+    padding-left: 0;
+}
 }
