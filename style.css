@@ -10,6 +10,7 @@ body {
 section {
   background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/68b7a1a2-664c-4dad-a797-548f157cca5e/KW-en-20210823-popsignuptwoweeks-perspective_alpha_website_large.jpg");
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: difference;
   height: 100vh;
