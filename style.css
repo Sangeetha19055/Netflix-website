@@ -131,9 +131,25 @@ main .section-content p {
           
       } */
 /* cards */
-.card-box {
+.card-container {
   color: #fff;
 }
+
+/* card-styles */
+
+.card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 8px rgb(69, 69, 69) solid;
+  padding: 40px;
+}
+
+.card-box img {
+  width: 550px;
+}
+
+/* card-styles */
 .card-0,
 .card-1,
 .card-2,
@@ -177,7 +193,9 @@ main .section-content p {
   font-size: 1.6rem;
   line-height: 2rem;
 }
-
+.copyname {
+  color: #e50914;
+}
 .card-1 video {
   position: relative;
   width: 100%;
@@ -457,5 +475,18 @@ input {
   }
   .section-btn_start input {
     min-width: 360px;
+  }
+}
+@media (max-width: 992px) {
+  .card-0 {
+    flex-direction: row;
+    justify-content: center;
+    background-color: tomato;
+  }
+  .card-box {
+    flex-direction: column;
+  }
+  .card-image img {
+    width: 400px;
   }
 }
