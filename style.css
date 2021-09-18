@@ -447,6 +447,9 @@ input {
   .logo-image {
     width: 100px;
   }
+  .card-box img {
+    width: 356px;
+}
   .header-right button {
     padding: 6px 15px;
     font-size: 14px;
