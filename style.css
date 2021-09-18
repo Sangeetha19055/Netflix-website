@@ -482,4 +482,8 @@ input {
     padding-left: 0;
        text-align: center;
 }
+  .faq h1 {
+font-size: 2rem;
+
+}
 }
