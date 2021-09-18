@@ -448,6 +448,9 @@ input {
   .logo-image {
     width: 100px;
   }
+  .card-image img {
+    width: 330px;
+}
   .card-box img {
     width: 356px;
 }
