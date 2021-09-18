@@ -461,6 +461,15 @@ input {
   card-image img {
     width: 200px;
 }
+  .questions {
+    margin: 11px;
+}
+  .questions li {
+    padding: 20px 10px;
+    margin: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
 }
 @media (max-width: 992px) {
   .card-0 {
