@@ -458,6 +458,9 @@ input {
   .section-btn_start input {
     min-width: 360px;
   }
+  card-image img {
+    width: 200px;
+}
 }
 @media (max-width: 992px) {
   .card-0 {
