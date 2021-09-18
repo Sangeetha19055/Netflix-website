@@ -474,10 +474,12 @@ input {
  .style-cards h3 {
     font-size: 1rem;
     font-weight: normal;
+       text-align: center;
 }
   .style-cards h1 {
     font-size: 2rem;
     padding: 1rem;
     padding-left: 0;
+       text-align: center;
 }
 }
