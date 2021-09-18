@@ -471,7 +471,7 @@ input {
   .card-image img {
     width: 400px;
   }
-  style-cards h3 {
+ .style-cards h3 {
     font-size: 1rem;
     font-weight: normal;
 }
